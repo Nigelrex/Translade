@@ -1,0 +1,23 @@
+{
+  "name": "translade",
+  "version": "1.0.0",
+  "description": "Translade is a bot where you can translate your language to a different on right from discord",
+  "main": "bot.js",
+  "scripts": {
+    "test": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nigelrex/Translade.git"
+  },
+  "keywords": [
+    "translade.",
+    "translate"
+  ],
+  "author": "Nigelrex",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nigelrex/Translade/issues"
+  },
+  "homepage": "https://github.com/Nigelrex/Translade#readme"
+}
