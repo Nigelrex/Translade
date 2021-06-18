@@ -42,9 +42,14 @@ client.on("message", (message, args) => {
             value: `Ping me or use ${config.bot.prefix}help`,
             inline: true,
           },
+          {
+            name: "Usage",
+            value: `t!ts <message> <lang>`,
+            inline: true,
+          },
         ],
         image: {
-          url: 'attachment://help.gif',
+          url: 'https://i.imgur.com/CPenYbI.gif',
         },
         footer: { text: "- By Translade" },
         color: config.bot.color,
@@ -71,9 +76,14 @@ client.on("message", (message, args) => {
             value: `Ping me or use ${config.bot.prefix}help`,
             inline: true,
           },
+          {
+            name: "Usage",
+            value: `t!ts <message> <lang>`,
+            inline: true,
+          },
         ],
         image: {
-          url: "attachment://help.gif",
+          url: "https://i.imgur.com/CPenYbI.gif",
         },
         footer: { text: "- By Translade" },
         color: config.bot.color,
